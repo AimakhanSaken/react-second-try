@@ -1,0 +1,8 @@
+.item {
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+}
+a {
+    padding-top: 15px;
+}

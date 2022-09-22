@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.usersItems {
+    padding: 15px 15px;
+}
+.item {
+    padding-bottom: 10px;
+}
+.chats {
+    padding: 15px 15px;
+}
+.chat {
+    padding-bottom: 10px;
+}
+.sendText {
+    display: flex;
+    align-items: center;
+}
+button {
+    width: 80px;
+    height: 30px;
+}
+textarea {
+    width: 50%;
+    margin: 10px 15px;
+}

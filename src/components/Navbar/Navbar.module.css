@@ -1,0 +1,15 @@
+.nav {
+  grid-area: n;
+  background-color: lightslategray;
+  width: 150px;
+}
+.item {
+  padding: 8px;
+}
+.item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.item a:hover {
+  color: gold;
+}

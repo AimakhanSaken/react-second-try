@@ -1,0 +1,16 @@
+.friendsList {
+    display: flex;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+.items img {
+    width: 40px;
+    height:  40px;
+    border-radius: 25px;
+    margin: 0px 5px;
+}

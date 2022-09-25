@@ -12,7 +12,7 @@ const Profile = function (props) {
       <div className={classes.logo}>
         <img src="https://images.ctfassets.net/hrltx12pl8hq/qGOnNvgfJIe2MytFdIcTQ/429dd7e2cb176f93bf9b21a8f89edc77/Images.jpg" />
       </div>
-      <MyPostsContainer store={props.store} />
+      <MyPostsContainer />
     </div>
   );
 };

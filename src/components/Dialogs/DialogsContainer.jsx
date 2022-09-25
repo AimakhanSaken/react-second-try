@@ -36,7 +36,7 @@ let mapStateToProps= (state) => {
     dialogsPage: state.dialogsPage
   }
 }
-let mapDispatchToPops= (dispatch) => {
+let mapDispatchToProps= (dispatch) => {
   return {
     updateNewMessageBody: (body) => {
       dispatch(updateNewMessageBodyCreator(body));
@@ -48,6 +48,6 @@ let mapDispatchToPops= (dispatch) => {
   }
 }
 
-const DialogsContainer = connect(mapStateToProps, mapDispatchToPops)(Dialogs);
+const DialogsContainer = connect(mapStateToProps, mapDispatchToProps)(Dialogs);
 
 export default DialogsContainer;

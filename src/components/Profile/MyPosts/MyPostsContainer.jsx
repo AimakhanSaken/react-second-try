@@ -38,7 +38,7 @@ let mapStateToProps= (state) => {
     newPostText: state.profilePage.newPostText,
   }
 }
-let mapDispatchToPops= (dispatch) => {
+let mapDispatchToProps= (dispatch) => {
   return {
     updateNewPostText: (text) => {
       let action = updateNewPostTextActionCreator(text);
@@ -51,5 +51,5 @@ let mapDispatchToPops= (dispatch) => {
   }
 }
 
-const MyPostsContainer = connect(mapStateToProps, mapDispatchToPops)(MyPosts);
+const MyPostsContainer = connect(mapStateToProps, mapDispatchToProps)(MyPosts);
 export default MyPostsContainer;

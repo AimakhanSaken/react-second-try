@@ -9,6 +9,7 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import Friends from "./components/Friends/Friends";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import UsersContainer from "./components/Users/UsersContainer";
 
 let App = function (props) {
   return (
@@ -23,6 +24,7 @@ let App = function (props) {
             <Route path='/Dialogs/*' element={<DialogsContainer />} />
             <Route path='/News' element={<News/>} />
             <Route path='/Music' element={<Music/>} />
+            <Route path='/Users' element={<UsersContainer />} />
             <Route path='/Settings' element={<Settings/>} />
           </Routes>
         </div>
